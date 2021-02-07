@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>August 2009 Archives</title>
+    <link href="../../../rss/index.html" rel="alternate" title="RSS" type="application/rss+xml" />
+  
+  
+    <link rel="stylesheet" type="text/css" href="../../../styles.css" />
+  
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+          <div id="site-title"><a href="../../../index.html">fair dinkum</a></div>
+          <div id="site-subtitle">matt&rsquo;s (archived) space on the web</div>
+        </div>
+        <hr class="hidden" />
+
+      <div id="main">
+        <div id="content-wrapper">
+          <div id="content">
+            
+              <div class="breadcrumb"><a href="../../../index.html">Home</a> &gt; <a href="../../index.html">Geek</a> &gt; Monthly Archives</div>
+              <h1>August 2009 Archives</h1>
+              
+            
+            
+<div class="entry">
+  <h3><a href="06/iphone-geolocation-bookmarklets/index.html">iPhone Geolocation Bookmarklets</a></h3>
+  <span class="subtitle">Create direct links to GPS location-specific webpages</span>
+  <p style="float:left"><a href="http://s3.amazonaws.com/static.mbauman.net/page_attachments/156/IMG_0010.PNG"><img src="http://s3.amazonaws.com/static.mbauman.net/page_attachments/158/IMG_0010_240.png" alt="" /></a></p>
+
+
+	<p>Very few websites have implemented the new javascript <span class="caps">GPS</span> geolocation features that were intruduced with <span class="caps">HTML 5</span>.  However, there are a few sites that use latitude and longitude directly in their URLs.</p>
+
+
+	<p>I first wanted a quick way to get my current latitude and longitude while looking at <a href="http://heavens-above.com">Heavens Above</a>.  It&#8217;s a great site that allows you to find visible satellites based upon your current location.  Here&#8217;s <a href="javascript:navigator.geolocation.getCurrentPosition(function(g){c=g.coords;z=c.altitude;z=z?z:0;d=new%20Date(2009,0,1,0,0,0,0).toLocaleString().substr(-3,3);window.location='http://www.heavens-above.com/?lat='+c.latitude+'&#38;lng='+c.longitude+'&#38;alt='+z+'&#38;loc=iPhone&#38;tz='+d;},function(){alert('Permission%20denied.')});">the bookmarklet</a> that I created:</p>
+
+
+<div>
+<code style="word-wrap:break-word">javascript:navigator.geolocation.getCurrentPosition(function(g){c=g.coords;z=c.altitude;z=z?z:0;d=new Date(2009,0,1,0,0,0,0).toLocaleString().substr(-3,3);window.location="http://www.heavens-above.com/?lat="+c.latitude+"&#38;lng="+c.longitude+"&#38;alt="+z+"&#38;loc=iPhone&#38;tz="+d;},function(){alert("Permission denied.")});</code>
+</div>
+
+	<p>Copy <a href="javascript:navigator.geolocation.getCurrentPosition(function(g){c=g.coords;z=c.altitude;z=z?z:0;d=new%20Date(2009,0,1,0,0,0,0).toLocaleString().substr(-3,3);window.location='http://www.heavens-above.com/?lat='+c.latitude+'&#38;lng='+c.longitude+'&#38;alt='+z+'&#38;loc=iPhone&#38;tz='+d;},function(){alert('Permission%20denied.')});">this link to your bookmarks</a> and when accessed on an iPhone or location-aware web browser, it will directly load the site with your current location entered!</p>
+
+
+	<p>I had to jump through several hoops here.  When the altitude is not available (when only using cell-tower triangulation), the javascript code returns <code>null</code>.  The website only supports numeric values, so <code>z=z?z:0</code> replaces the <code>null</code> with a <code>0</code>. Secondly, the website needs the local timezone, but unfortunately it only accepts a small subset of the three letter codes (and not the numeric offset from <span class="caps">UTC</span>).  Even worse, the daylight savings version of the code (EDT/CDT/MDT/PDT) are unsupported &#8211; the site just assumes that you follow the trend (sorry Arizona).  So I grab the code from January 1, 2009 (when daylight savings is not in effect), and parse the three letter code from that string.</p>
+
+
+	<p>For most sites, you&#8217;d only need something of the form (<a href="javascript:navigator.geolocation.getCurrentPosition(function(g){c=g.coords;window.location='http://forecast.weather.gov/MapClick.php?lat='+c.latitude+'&#38;lon='+c.longitude;},function(){alert('Permission%20denied.')});">The <span class="caps">NOAA</span>&#8217;s weather forecast</a> , for example):</p>
+
+
+<div>
+<code style="word-wrap:break-word">javascript:navigator.geolocation.getCurrentPosition(function(g){c=g.coords;window.location="http://forecast.weather.gov/MapClick.php?lat="+c.latitude+"&#38;lon="+c.longitude;},function(){alert("Permission denied.")});</code>
+</div>
+
+	<p>Now if only I could find a way to save the javascript bookmark to the Home Screen, I&#8217;d be set!</p>
+  
+  <p class="info">Posted by Matt on Aug 06, 2009</p>
+</div>
+
+            
+            <div id="extended">
+              
+            </div>
+            
+            
+          </div>
+        </div>
+        <div id="sidebar-wrapper">
+          <div id="sidebar">
+            <h3>Recent geeky posts</h3>
+<ul>
+
+<li> <a href="../../2011/07/02/tracking-the-iss/index.html">Tracking the <span class="caps">ISS</span></a></li>
+<li> <a href="../../2011/01/07/finer-zoom-increments-in-webkit/index.html">Finer zoom increments in WebKit</a></li>
+<li> <a href="06/iphone-geolocation-bookmarklets/index.html">iPhone Geolocation Bookmarklets</a></li>
+<li> <a href="../03/15/minor-truetype-font-editing-on-a-mac/index.html">Minor Truetype Font Editing on a Mac</a></li>
+<li> <a href="../../2007/05/26/adding-an-optibay-to-my-macbook-pro/index.html">Adding an OptiBay to my MacBook Pro</a></li>
+<li> <a href="../../2007/05/12/new-site/index.html">New Site</a></li>
+
+</ul>
+(<a href="../../../rss/geek/index.html"><span class="caps">RSS</span> Feed</a>)
+
+<h3>Geek Archives</h3>
+<ul>
+
+<li><a href="../../2011/07/index.html">July 2011</a></li>
+
+<li><a href="../../2011/01/index.html">January 2011</a></li>
+
+<li><a href="index.html">August 2009</a></li>
+
+<li><a href="../03/index.html">March 2009</a></li>
+
+<li><a href="../../2007/05/index.html">May 2007</a></li>
+
+</ul>
+
+<h3>Other sections</h3>
+<ul>
+<li> <a href="../../../life/index.html">Real Life</a></li>
+<li> <a href="../../../gallery/index.html">Photos</a></li>
+<li> <a href="../../../about/index.html">About</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <hr class="hidden" />
+        <div id="footer">
+          <p>Copyright &copy; 2008-2011, <a href="../../../about/index.html">Matt Bauman</a>. All rights reserved.<br />
+             Recklessly <strike>driven on</strike> frozen from shiny and <a href="http://radiantcms.org/">radiant</a> rails.</p>
+        </div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-88976-4";
+urchinTracker();
+</script>
+    </div>
+  </body>
+</html>
+
+<!-- Localized -->

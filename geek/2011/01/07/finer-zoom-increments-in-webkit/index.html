@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Finer zoom increments in WebKit</title>
+    <link href="../../../../../rss/index.html" rel="alternate" title="RSS" type="application/rss+xml" />
+  
+  
+    <link rel="stylesheet" type="text/css" href="../../../../../styles.css" />
+  
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+          <div id="site-title"><a href="../../../../../index.html">fair dinkum</a></div>
+          <div id="site-subtitle">matt&rsquo;s (archived) space on the web</div>
+        </div>
+        <hr class="hidden" />
+
+      <div id="main">
+        <div id="content-wrapper">
+          <div id="content">
+            
+              <div class="breadcrumb"><a href="../../../../../index.html">Home</a> &gt; <a href="../../../../index.html">Geek</a> &gt; Finer zoom increments in WebKit</div>
+              <h1>Finer zoom increments in WebKit</h1>
+              
+            
+            <p style="float:right"><a href="http://s3.amazonaws.com/static.mbauman.net/page_attachments/160/SafariViewMenu.png"><img src="http://s3.amazonaws.com/static.mbauman.net/page_attachments/162/SafariViewMenuSmall.png" alt="" /></a></p>
+
+
+	<p>I&#8217;ve always been annoyed at how large the jumps are between zoom increments in every single web browser. One click of &#8220;Zoom In&#8221; and suddenly the text is <span class="caps">HUGE</span>.  I have found it so unhelpful in the past that I had completely forgotten about the feature.  But then two things changed:</p>
+
+
+	<ol>
+	<li>I purchased a high resolution laptop. I really like the display, but it can make text on some websites too small to read comfortably.</li>
+		<li>Apple made <em>zoom in</em> a built-in gesture on their trackpads. In almost all applications, the &#8220;pinch&#8221; and &#8220;stretch&#8221; gestures gradually zooms the content in and out. In Safari, however, the jump between zoom levels is so large that the zoomed page feels jarringly disjointed from the original.</li>
+	</ol>
+
+
+	<p>Fortunately, WebKit is open source and anyone can <a href="http://webkit.org/">download and modify the source code</a>.  And it&#8217;s an extremely simple change (as it should be).  In file <code>WebKit/mac/WebView/WebView.mm</code>, change</p>
+
+
+	<p><code>#define ZoomMultiplierRatio         1.2f</code></p>
+
+
+	<p>to:</p>
+
+
+	<p><code>#define ZoomMultiplierRatio         1.06265857f</code></p>
+
+
+	<p>To be more precise, you may use <a href="https://gist.github.com/770529">this diff file</a> as a patch. Why <code>1.06265857f</code>? It&#8217;s the cube root of 1.2. Since the current zoom level is computed by multiplying by this ratio, using the cube root effectively makes the zoom increment a third of what is previously was.</p>
+
+
+	<p>To compile your very own modified WebKit, go to <code>WebKit/ Tools/Scripts</code> and run <code>./build-webkit --release</code> (it takes a while &#8211; about 40 minutes for me). To use it, open and compile <code>WebKit/Tools/WebKitLauncher/WebKitLauncher.xcodeproj</code> in Xcode.  This creates the WebKit.app that is found in the nightly builds.  But you&#8217;re not done yet. You need to add your custom-built webkit into this app. Navigate into the build directory and right-click on WebKit.app to Show Package Contents. You need to create the directory <code>Contents/Frameworks/10.6</code> (or <code>10.5</code> if you&#8217;re still on Leopard). Finally, copy all the items from <code>WebKit/WebKitBuild/Release</code> into that new folder, and you&#8217;re done!</p>
+
+
+	<p>Now if only I could hack Safari to not require such a large gesture to zoom in&#8230; but alas that code resides in Apple&#8217;s closed source.</p>
+            
+            <p class="info">Posted by Matt on Friday, January 07, 2011</p>
+          </div>
+        </div>
+        <div id="sidebar-wrapper">
+          <div id="sidebar">
+            <h3>Recent geeky posts</h3>
+<ul>
+
+<li> <a href="../../../07/02/tracking-the-iss/index.html">Tracking the <span class="caps">ISS</span></a></li>
+<li> <a href="index.html">Finer zoom increments in WebKit</a></li>
+<li> <a href="../../../../2009/08/06/iphone-geolocation-bookmarklets/index.html">iPhone Geolocation Bookmarklets</a></li>
+<li> <a href="../../../../2009/03/15/minor-truetype-font-editing-on-a-mac/index.html">Minor Truetype Font Editing on a Mac</a></li>
+<li> <a href="../../../../2007/05/26/adding-an-optibay-to-my-macbook-pro/index.html">Adding an OptiBay to my MacBook Pro</a></li>
+<li> <a href="../../../../2007/05/12/new-site/index.html">New Site</a></li>
+
+</ul>
+(<a href="../../../../../rss/geek/index.html"><span class="caps">RSS</span> Feed</a>)
+
+<h3>Geek Archives</h3>
+<ul>
+
+<li><a href="../../../07/index.html">July 2011</a></li>
+
+<li><a href="../../index.html">January 2011</a></li>
+
+<li><a href="../../../../2009/08/index.html">August 2009</a></li>
+
+<li><a href="../../../../2009/03/index.html">March 2009</a></li>
+
+<li><a href="../../../../2007/05/index.html">May 2007</a></li>
+
+</ul>
+
+<h3>Other sections</h3>
+<ul>
+<li> <a href="../../../../../life/index.html">Real Life</a></li>
+<li> <a href="../../../../../gallery/index.html">Photos</a></li>
+<li> <a href="../../../../../about/index.html">About</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <hr class="hidden" />
+        <div id="footer">
+          <p>Copyright &copy; 2008-2011, <a href="../../../../../about/index.html">Matt Bauman</a>. All rights reserved.<br />
+             Recklessly <strike>driven on</strike> frozen from shiny and <a href="http://radiantcms.org/">radiant</a> rails.</p>
+        </div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-88976-4";
+urchinTracker();
+</script>
+    </div>
+  </body>
+</html>
+
+<!-- Localized -->
