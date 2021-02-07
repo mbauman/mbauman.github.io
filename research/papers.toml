@@ -1,0 +1,274 @@
+[[papers]]
+authors = "Ethier, Christian; Oby, Emily R; Bauman, Matthew J; Miller, Lee E"
+title = "Restoration of grasp following paralysis through brain-controlled stimulation of muscles"
+publication = "Nature"
+volume = 485
+number = 7398
+pages = "368-371"
+publisher = "Nature Publishing Group"
+url = "https://www.nature.com/articles/nature10987"
+date = 2012-04-18
+doi = "10.1038/nature10987"
+pdf = "Nature-2012-Ethier.pdf"
+
+[[chapters]]
+authors = "Oby, Emily R; Ethier, Christian; Bauman, Matthew J; Perreault, Eric J; Ko, Jason H; Miller, Lee E"
+title = "Prediction of Muscle Activity from Cortical Signals to Restore Hand Grasp in Subjects with Spinal Cord Injury"
+publication = "Statistical Signal Processing for Neuroscience and Neurotechnology"
+editor = "O'Weiss, KG"
+pages = "369-406"
+publisher = "Academic Press, Elsevier"
+doi = "0.1016/B978-0-12-375027-3.00011-9"
+date = 2010-08-18
+pdf = "SSPNN-2011.pdf"
+url = "https://www.sciencedirect.com/science/article/pii/B9780123750273000119"
+
+[[papers]]
+authors = "Slutzky, Marc W; Jordan, Luke R; Bauman, Matthew J; Miller, Lee E"
+title = "A new rodent behavioral paradigm for studying forelimb movement"
+publication = "Journal of Neuroscience Methods"
+volume = 192
+number = 2
+pages = "228-232"
+publisher = "Elsevier"
+url = "https://www.sciencedirect.com/science/article/abs/pii/S0165027010004152"
+doi = "10.1016/j.jneumeth.2010.07.040"
+date = 2010-10-15
+pdf = "J-Neurosci-Methods-2010-Slutzky.pdf"
+
+[[papers]]
+authors = "Bruns, Tim M; Wagenaar, Joost B; Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
+title = "Real-time control of hind limb functional electrical stimulation using feedback from dorsal root ganglia recordings"
+publication = "Journal of Neural Engineering"
+volume = 10
+number = 2
+pages = "026020"
+publisher = "IOP Publishing"
+url = "https://iopscience.iop.org/article/10.1088/1741-2560/10/2/026020/meta"
+doi = "10.1088/1741-2560/10/2/026020"
+date = 2013-03-15
+pdf = "J-Neural-Eng-2013-Bruns.pdf"
+
+[[proceedings]]
+authors = "Bauman, Matthew J; Bruns, Tim M; Wagenaar, Joost B; Gaunt, Robert A; Weber, Douglas J"
+title = "Online feedback control of functional electrical stimulation using dorsal root ganglia recordings"
+publication = "2011 Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+pages = "7246-7249"
+publisher = "IEEE"
+url = "https://ieeexplore.ieee.org/abstract/document/6091831"
+doi = "10.1109/IEMBS.2011.6091831"
+date = 2011-08-30
+pdf = "EMBS-2011-Bauman.pdf"
+
+[[papers]]
+authors = "Ackermann Jr, D Michael; Ethier, Christian; Foldes, Emily L; Oby, Emily R; Tyler, Dustin; Bauman, Matthew J; Bhadra, Niloy; Miller, Lee; Kilgore, Kevin L"
+title = "Electrical conduction block in large nerves: High‐frequency current delivery in the nonhuman primate"
+publication = "Muscle & Nerve"
+volume = 43
+number = 6
+pages = "897-899"
+publisher = "Wiley Subscription Services, Inc., A Wiley Company Hoboken"
+url = "https://onlinelibrary.wiley.com/doi/abs/10.1002/mus.22037"
+doi = "10.1002/mus.22037"
+date = 2011-02-01
+pdf = "Muscle-Nerve-2011-Ackermann.pdf"
+
+[[proceedings]]
+authors = "Weber, Douglas J; Bauman, Matthew J; Fisher, Lee; Ayers, Christopher; Debnath, Shubham; Parker, Rebecca; Gaunt, Robert"
+title = "Spinal nerve interfaces for bidirectional communication with prosthetic limbs"
+publication = "生体医工学 2013 IEEE EMBC"
+volume = 51
+number = "Supplement"
+pages = "M–75"
+publisher = "公益社団法人 日本生体医工学会"
+url = "https://www.jstage.jst.go.jp/article/jsmbe/51/Supplement/51_M-75/_article/-char/ja/"
+doi = "10.11239/jsmbe.51.M-75"
+date = 2013-07-03
+pdf = "EMBC-2013-Weber.pdf"
+
+[[papers]]
+authors = "Debnath, Shubham; Bauman, Matthew J; Fisher, Lee E; Weber, Douglas J; Gaunt, Robert A"
+title = "Microelectrode array recordings from the ventral roots in chronically implanted cats"
+publication = "Frontiers in Neurology"
+volume = 5
+number = 104
+pages = "1-9"
+publisher = "Frontiers"
+date = 2014-07-07
+url = "https://www.frontiersin.org/articles/10.3389/fneur.2014.00104/full"
+doi = "10.3389/fneur.2014.00104"
+pdf = "Front-Neurol-2014-Debnath.pdf"
+
+[[papers]]
+authors = "Bauman, Matthew J"
+title = "A ventral root interface for neuroprosthetic control of locomotion"
+publication = "Doctoral Dissertation, University of Pittsburgh"
+pages = "131 pages"
+publisher = "University of Pittsburgh"
+date = 2019-01-23
+url = "http://d-scholarship.pitt.edu/35540/"
+pdf = "Pitt-2019-Bauman.pdf"
+
+[[proceedings]]
+authors = "Bauman, Matthew J; Boxer, Kate S; Lin, Tzu-Yun; Salomon, Erika; Naveed, Hareem; Haynes, Lauren; Walsh, Joe; Helsby, Jen; Yoder, Steve; Sullivan, Robert"
+title = "Reducing Incarceration through Prioritized Interventions"
+publication = "Proceedings of the 1st ACM SIGCAS Conference on Computing and Sustainable Societies"
+volume = 1
+number = 6
+pages = "8"
+publisher = "Association for Computing Machinery"
+date = 2018-06-20
+url = "https://dl.acm.org/doi/abs/10.1145/3209811.3209869"
+doi = "10.1145/3209811.3209869"
+pdf = "SIGCAS-2018-Bauman.pdf"
+
+[[whitepapers]]
+authors = "Bauman, Matthew J"
+title = "Improving deduplication of identities"
+url = "http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/11/dedupewhitepaper.pdf"
+date = 2018-11-30
+pdf = "Whitepaper-2018-Bauman.pdf"
+source = "https://github.com/dssg/pgdedupe"
+
+[[posters]]
+authors = "Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
+date = 2014-11-16
+title = "Estimation of muscle activity from chronic single unit ventral root recordings"
+conference = "Society for Neuroscience 44th Annual Meeting"
+location = "Washington, DC"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=ce1e3772-39c7-4eb7-bbb8-4f25ff6276ca&cKey=9f755998-b7ac-4e82-bb62-8b6f935ba661&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7"
+pdf = "SFN-2014-Bauman.pdf"
+
+[[posters]]
+authors = "Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
+date = 2014-06-25
+title = "Estimation of Muscle Activity from Chronic Single Unit Ventral Root Recordings"
+conference = "Neural Interfaces Conference"
+location = "Dallas, TX"
+pdf = "NIC-2014-Bauman.pdf"
+
+[[posters]]
+authors = "Bauman, Matthew J; Debnath, S., Gaunt, Robert A; Weber, Douglas J"
+date = 2013-11-13
+title = "Chronic ventral root recordings as a source for neuroprosthetic control"
+conference = "Society for Neuroscience 43rd Annual Meeting"
+location = "San Diego, CA"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=e2125ec4-fb9e-4ae2-a287-c456ccc52038&cKey=d6734150-3e88-4a52-beaf-99da2519ec3b&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf"
+pdf = "SFN-2013-Bauman.pdf"
+
+[[posters]]
+authors = "Debnath, Shubham; Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
+date = 2013-11-13
+title = "Impedance and signal quality measurements for microelectrode arrays implanted chronically in feline spinal nerves"
+conference = "Society for Neuroscience 43rd Annual Meeting"
+location = "San Diego, CA"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=f3467dca-0ea5-406f-b787-3392d242c687&cKey=c931df55-a4ae-4c06-a803-51e70b1cbff2&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf"
+
+[[posters]]
+authors = "Bauman, Matthew J; Bruns, Tim M; Wagenaar, Joost B; Gaunt, Robert A; Weber, Douglas J"
+date = 2011-11-15
+title = "Stable control of functional electrical stimulation with online feedback from dorsal root ganglion recordings"
+conference = "Society for Neuroscience 41st Annual Meeting"
+location = "Washington, DC"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=88e3af2a-5fb8-4d98-a783-e73e379b3eb8&cKey=010212dc-1314-4bf6-8a14-ceefd8f721ee&mKey=8334be29-8911-4991-8c31-32b32dd5e6c8"
+pdf = "SFN-2011-Bauman.pdf"
+
+[[posters]]
+authors = "Bauman, Matthew J; Bruns, Tim M; Wagenaar, Joost B; Gaunt, Robert A; Weber, Douglas J"
+date = 2011-09-01
+title = "Online feedback control of functional electrical stimulation using dorsal root ganglia recordings"
+conference = "33rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+location = "Boston, MA"
+pdf = "EMBC-2011-Bauman-poster.pdf"
+
+[[posters]]
+authors = "London, Brian M;  Bauman, Matthew J; Miller, Lee E"
+date = 2009-10-18
+title = "Towards a bidirectional brain-machine interface: Coding properties of proprioceptive cortex"
+conference = "Society for Neuroscience Annual Meeting"
+location = "Chicago, IL"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=66bc92f8-c545-4473-aaa0-d3e84e1a278e&cKey=8e848754-85c5-4fdd-95d3-3d8b8ca22cd6&mKey=081f7976-e4cd-4f3d-a0af-e8387992a658"
+
+[[posters]]
+authors = "Ethier, Christian; Oby, Emily R; Bauman, Matthew J; Miller, Lee E"
+date = 2009-10-19
+title = "Real-time control of a paralyzed limb: Restoration of grasp through cortically controlled FES"
+conference = "Society for Neuroscience Annual Meeting"
+location = "Chicago, IL"
+url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=ea029207-3583-4ee7-ab69-5dcfce1891b0&cKey=f1d6fb63-23f4-49e0-8b8f-e6466d58e014&mKey=081f7976-e4cd-4f3d-a0af-e8387992a658"
+
+[[presentations]]
+authors = "Johnson, Alex C; Bauman, Matthew J"
+date = 2020-10-15
+title = "Get Started with Dash for Julia"
+url = "https://medium.com/plotly/announcing-dash-for-julia-f017c90c6ef1"
+video = "https://www.youtube.com/watch?v=BLgcWmnIEUQ"
+source = "https://github.com/mbauman/MNIST-demo"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2020-11-20
+title = "The impact of differentiable programming: how ∂P is enabling new science in Julia"
+conference = "SPLASH 2020"
+location = "~~~<strike>Chicago, IL</strike>~~~ Everywhere"
+url = "https://2020.splashcon.org/profile/mattbauman"
+video = "https://www.youtube.com/watch?v=rF2QAJLM730"
+source = "https://github.com/mbauman/dTrebuchet"
+pdf = "SPLASH-2020-Bauman.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2016-03-22
+title = "DIY Speed Monitoring: A Hacknight with Matt Bauman"
+location = "CMU, Pittsburgh, PA"
+url = "http://www.wprdc.org/event/diy-speed-monitoring-a-hacknight-with-matt-bauman/"
+source = "https://github.com/mbauman/TrafficSpeed"
+pdf = "HackNight-2016.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2019-07-22
+title = "Machine Learning Workshop"
+conference = "JuliaCon 2019"
+location = "Baltimore, MD"
+url = "https://pretalx.com/juliacon2019/talk/UEDNGH/"
+source = "https://github.com/mbauman/MachineLearningWorkshop2019"
+pdf = "JuliaCon-2019-ML.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J; Sengupta, Avik"
+date = 2019-07-22
+title = "Parallel Computing Workshop"
+conference = "JuliaCon 2019"
+location = "Baltimore, MD"
+url = "https://pretalx.com/juliacon2019/talk/RLDSVL/"
+source = "https://github.com/mbauman/ParallelWorkshop2019"
+pdf = "JuliaCon-2019-Parallel.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2018-08-10
+title =  "An introduction to high performance custom arrays"
+conference = "JuliaCon 2018"
+location = "London"
+url = "https://juliacon.org/2018/talks_workshops/122/index.html"
+video = "https://www.youtube.com/watch?v=jS9eouMJf_Y"
+source = "https://github.com/mbauman/JuliaCon2018"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2018-08-10
+title =  "Advocating for public policy change with Julia"
+conference = "JuliaCon 2018"
+location = "London"
+url = "https://juliacon.org/2018/talks_workshops/44/index.html"
+video = "https://www.youtube.com/watch?v=vPGTCcUy_Q8"
+pdf = "JuliaCon-2018-Public-Policy.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2013-04-30
+title = "Multi-Electrode Recordings 101"
+conference = "Plexon Neurophysiology Workshop"
+location = "Dallas, TX"
+pdf = "Plexon-2013-Bauman.pdf"
