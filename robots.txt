@@ -1,0 +1,4 @@
+Sitemap: https://mbauman.com/sitemap.xml
+
+User-agent: *
+Disallow:
