@@ -1,4 +1,4 @@
-Sitemap: https://mbauman.com/sitemap.xml
+Sitemap: https://mbauman.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
