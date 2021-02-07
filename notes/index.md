@@ -1,5 +1,4 @@
 @def title = "Notes"
-@def author = ""
 
 # Notes
 

@@ -1,5 +1,5 @@
 @def title = "Notes on trying to fix a Eufy Spaceview"
-@def published = "5 February 2021"
+@def published =
 @def rss_pubdate = Date(2021, 2, 5)
 @def rss = """Profiling type-inference"""
 

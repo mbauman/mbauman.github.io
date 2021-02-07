@@ -80,6 +80,7 @@ end
 
 """
     {{blogposts}}
+
 Plug in the list of blog posts contained in the `/notes/` folder. (adapted from www.julialang.org)
 """
 function hfun_blogposts()
@@ -111,59 +112,4 @@ function hfun_blogposts()
     # we want to  avoid this to avoid an empty separator
     r = Franklin.fd2html(String(take!(io)), internal=true)
     return r
-end
-
-"""
-    {{recentblogposts}}
-
-Input the 3 latest blog posts. (from www.julialang.org)
-"""
-function hfun_recentblogposts()
-    curyear = Dates.Year(Dates.today()).value
-    ntofind = 3
-    nfound  = 0
-    recent  = Vector{Pair{String,Date}}(undef, ntofind)
-    for year in curyear:-1:2019
-        for month in 12:-1:1
-            ms = "0"^(1-div(month, 10)) * "$month"
-            base = joinpath("blog", "$year", "$ms")
-            isdir(base) || continue
-            posts = filter!(p -> endswith(p, ".md"), readdir(base))
-            days  = zeros(Int, length(posts))
-            surls = Vector{String}(undef, length(posts))
-            for (i, post) in enumerate(posts)
-                ps       = splitext(post)[1]
-                surl     = "blog/$year/$ms/$ps"
-                surls[i] = surl
-                pubdate  = pagevar(surl, :published)
-                days[i]  = isnothing(pubdate) ?
-                                1 : day(Date(pubdate, dateformat"d U Y"))
-            end
-            # go over month post in antichronological orders
-            sp = sortperm(days, rev=true)
-            for (i, surl) in enumerate(surls[sp])
-                recent[nfound + 1] = (surl => Date(year, month, days[sp[i]]))
-                nfound += 1
-                nfound == ntofind && break
-            end
-            nfound == ntofind && break
-        end
-        nfound == ntofind && break
-    end
-    #
-    io = IOBuffer()
-    for (surl, date) in recent
-        url   = "/$surl/"
-        title = pagevar(surl, :title)
-        sdate = "$(day(date)) $(monthname(date)) $(year(date))"
-        blurb = pagevar(surl, :rss)
-        write(io, """
-            <div class="col-lg-4 col-md-12 blog">
-              <h3><a href="$url" class="title" data-proofer-ignore>$title</a>
-              </h3><span class="article-date">$date</span>
-              <p>$blurb</p>
-            </div>
-            """)
-    end
-    return String(take!(io))
 end
