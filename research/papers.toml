@@ -198,12 +198,13 @@ location = "Chicago, IL"
 url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=ea029207-3583-4ee7-ab69-5dcfce1891b0&cKey=f1d6fb63-23f4-49e0-8b8f-e6466d58e014&mKey=081f7976-e4cd-4f3d-a0af-e8387992a658"
 
 [[presentations]]
-authors = "Johnson, Alex C; Bauman, Matthew J"
-date = 2020-10-15
-title = "Get Started with Dash for Julia"
-url = "https://medium.com/plotly/announcing-dash-for-julia-f017c90c6ef1"
-video = "https://www.youtube.com/watch?v=BLgcWmnIEUQ"
-source = "https://github.com/mbauman/MNIST-demo"
+authors = "Bauman, Matthew J"
+date = 2020-09-18
+conference = "ODSC Europe"
+location = "Virtual Conference"
+title = "Learn How to Seamlessly Use Julia for Your Machine Learning Tasks"
+url = "https://odsc.com/speakers/54627/"
+pdf = "ODSC-2020-Bauman.pdf"
 
 [[presentations]]
 authors = "Bauman, Matthew J"
@@ -211,7 +212,7 @@ date = 2020-11-20
 title = "The impact of differentiable programming: how ∂P is enabling new science in Julia"
 conference = "SPLASH 2020"
 location = "~~~<strike>Chicago, IL</strike>~~~ Everywhere"
-url = "https://2020.splashcon.org/profile/mattbauman"
+url = "https://2020.splashcon.org/details/splash-2020-rebase/17/The-impact-of-differentiable-programming-how-P-is-enabling-new-science-in-Julia"
 video = "https://www.youtube.com/watch?v=rF2QAJLM730"
 source = "https://github.com/mbauman/dTrebuchet"
 pdf = "SPLASH-2020-Bauman.pdf"
