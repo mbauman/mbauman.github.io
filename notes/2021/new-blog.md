@@ -1,4 +1,4 @@
-@def title = "New site!"
+@def title = "New Franklin.jl-based site"
 @def published = "7 February 2021"
 @def rss = "Details about re-building my personal website on Franklin.jl"
 
@@ -34,7 +34,9 @@ Papers2.app (which is now also deprecated/abandoned), and both reading and writi
 seemed pretty annoying to me — especially when it comes to adding my own fields, escaping,
 and such. This was quick, dirty, and easy. Most importantly, it was super quick to add more
 entries to and then then parse it `open(TOML.parse, "papers.toml")` to generate the list
-itself.
+itself. Heck, if I ever need BiBTeX format in the future, it'll probably be easier to
+programatically generate it at that time than it would be to figure out and work within its
+syntax now.
 
 Auto-generating content based on TOMLs and other collections of files is super simple in
 Julia. It's so very straightforward and easy to use. The only snags I ran into in deploying
@@ -49,7 +51,7 @@ traffic, but part of the beauty of Franklin.jl is that it seamlessly imported th
 collection of static HTML pages — so if you (or Google) know the old canonical URL those
 pages will still just work™.
 
-As always, find the source on [~~~<i class="fab fa-github"></i>~~~](https://github.com/mbauman/mbauman.github.io/)
+As always, find the source on [~~~<i class="fab fa-github" title="GitHub"></i>~~~](https://github.com/mbauman/mbauman.github.io/).
 
 [Research+]: /research/
 [Radiant CMS]: https://en.wikipedia.org/wiki/Radiant_(software)
