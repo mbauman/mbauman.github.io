@@ -1,7 +1,6 @@
 @def title = "Adding an OptiBay to my MacBook Pro"
 @def published = "26 May 2007"
 
-# Adding an OptiBay to my MacBook Pro
 
 Well, I finally decided to risk voiding my warranty for the luxury of double the disk space.
 I have a 160GB hard drive installed in my MacBook, but I'm constantly squeezed for space. I

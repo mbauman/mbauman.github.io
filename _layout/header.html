@@ -1,5 +1,5 @@
 <header>
-<div class="blog-name"><a href="">Matt Bauman</a></div>
+<div class="blog-name"><a href="/">Matt Bauman</a></div>
 <nav>
   <ul>
     <li><a href="/">Home</a></li>
@@ -10,3 +10,19 @@
   <img src="/assets/hamburger.svg" id="menu-icon">
 </nav>
 </header>
+
+{{ispage /notes/*}}
+<div class="franklin-content container blog-title">
+  {{isdef title}}<h1>{{fill title}} </h1>{{end}}
+  <h3>
+  {{isdef published}}
+    <span style="font-weight: lighter; font-style: italic; font-size:smaller">
+      {{fill published}}
+      <a type="application/rss+xml" href="/feed.xml">
+        <i class="fas fa-rss" ></i>
+      </a>
+    </span>
+  {{end}}
+  </h3>
+</div>
+{{end}}

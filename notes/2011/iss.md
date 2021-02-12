@@ -1,7 +1,6 @@
 @def title = "Tracking the ISS"
 @def published = "02 July 2011"
 
-# Tracking the ISS
 
 #### _iPhone Geolocation Bookmarklets Part II_
 

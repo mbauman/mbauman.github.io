@@ -1,7 +1,6 @@
 @def title = "Finer zoom increments in WebKit"
 @def published = "07 January 2011"
 
-# Finer zoom increments in WebKit
 
 ~~~
 <p style="float:right">

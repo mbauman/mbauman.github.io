@@ -1,7 +1,6 @@
 @def title = "Minor Truetype Font Editing on a Mac"
 @def published = "3 March 2009"
 
-# Minor Truetype Font Editing on a Mac
 
 #### _(also: how to fix Consolas' baseline)_
 

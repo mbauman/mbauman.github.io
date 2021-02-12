@@ -1,7 +1,6 @@
 @def title = "iPhone Geolocation Bookmarklets"
 @def published = "06 August 2009"
 
-# iPhone Geolocation Bookmarklets
 
 #### _Create direct links to GPS location-specific webpages_
 
