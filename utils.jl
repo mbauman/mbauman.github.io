@@ -86,7 +86,7 @@ Plug in the list of blog posts contained in the `/notes/` folder. (adapted from 
 function hfun_blogposts()
     curyear = year(Dates.today())
     io = IOBuffer()
-    for year in filter!(x->all(isdigit, x), readdir("notes"))
+    for year in sort!(filter!(x->all(isdigit, x), readdir("notes")), rev=true)
         ys = "$year"
         base = joinpath("notes", ys)
         isdir(base) || continue
