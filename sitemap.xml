@@ -3,43 +3,79 @@
 
 <url>
     <loc>https://mbauman.com/research/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
+    <lastmod>2021-02-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://mbauman.com/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://mbauman.com/404/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://mbauman.com/notes/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://mbauman.com/notes/2021/eufy/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
+    <loc>https://mbauman.com/notes/2007/optibay/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://mbauman.com/notes/2021/new-blog/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/2009/geobookmarks/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/2009/truetype/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/2021/eufy/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/404/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://mbauman.com/projects/index.html</loc>
-    <lastmod>2021-02-08</lastmod>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/2011/iss/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/notes/2011/webkitzoom/index.html</loc>
+    <lastmod>2021-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://mbauman.com/iss/index/</loc>
+    <lastmod>2021-02-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
