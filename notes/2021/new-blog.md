@@ -1,6 +1,7 @@
 @def title = "New Franklin.jl-based site"
 @def published = "7 February 2021"
 @def rss = "Details about re-building my personal website on Franklin.jl"
+@def rss_pubdate = Date(2021, 2, 7)
 
 # New Franklin.jl-based site
 
