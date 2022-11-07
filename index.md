@@ -3,7 +3,7 @@
 ## About
 
 I'm a bioengineer turned data scientist turned open source developer and am
-now the Director of Applications Engineering at Julia Computing. This site holds many
+now the director of sales engineering at [JuliaHub](https://juliahub.com). This site holds many
 of my published materials, projects, and assorted notes from over the years.
 
 [~~~<i class="fab fa-github-square" title="GitHub"></i>~~~](https://github.com/mbauman)
