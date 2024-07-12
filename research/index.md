@@ -1,3 +1,3 @@
-# Papers, Presentations, and Posters
+# Papers, Presentations, Posters, and other Published activities
 
 {{researchitems}}

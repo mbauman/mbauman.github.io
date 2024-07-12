@@ -211,7 +211,7 @@ authors = "Bauman, Matthew J"
 date = 2020-11-20
 title = "The impact of differentiable programming: how ∂P is enabling new science in Julia"
 conference = "SPLASH 2020"
-location = "~~~<strike>Chicago, IL</strike>~~~ Everywhere"
+location = "~~~<strike>Chicago, IL</strike>~~~ Everywhere online"
 url = "https://2020.splashcon.org/details/splash-2020-rebase/17/The-impact-of-differentiable-programming-how-P-is-enabling-new-science-in-Julia"
 video = "https://www.youtube.com/watch?v=rF2QAJLM730"
 source = "https://github.com/mbauman/dTrebuchet"
@@ -222,6 +222,7 @@ authors = "Bauman, Matthew J"
 date = 2016-03-22
 title = "DIY Speed Monitoring: A Hacknight with Matt Bauman"
 location = "CMU, Pittsburgh, PA"
+conference = "Students Using Data For Social Good"
 url = "http://www.wprdc.org/event/diy-speed-monitoring-a-hacknight-with-matt-bauman/"
 source = "https://github.com/mbauman/TrafficSpeed"
 pdf = "HackNight-2016.pdf"
@@ -273,3 +274,120 @@ title = "Multi-Electrode Recordings 101"
 conference = "Plexon Neurophysiology Workshop"
 location = "Dallas, TX"
 pdf = "Plexon-2013-Bauman.pdf"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2024-07-09
+title =  "Introduction to Julia Workshop"
+conference = "JuliaCon 2024"
+location = "Eindhoven, NL"
+url = "https://pretalx.com/juliacon2024/talk/7NGHZP/"
+
+[[presentations]]
+authors = "Bauman, Matthew J"
+date = 2021-04-08
+title =  "Pluto on JuliaHub"
+conference = "PlutoCon 2021"
+location = "Online"
+url = "https://plutojl.org/plutocon2021/"
+video = "https://www.youtube.com/watch?v=uxDJcFRdELM"
+
+[[webinars]]
+title="JuliaHub Air: JuliaHub for Secure Computing Environments"
+authors="Amdor, Luke; Bauman, Matthew J"
+date=2024-06-19
+url="https://juliahub.com/company/resources/juliahub-for-secure-computing-environments"
+video="https://www.youtube.com/watch?v=iP87KF6lvQk"
+
+[[webinars]]
+title="Using Large Datasets in JuliaHub"
+authors="Bauman, Matthew J"
+date=2022-12-01
+url="https://juliahub.com/company/resources/webinar/using-large-datasets-in-juliahub"
+video="https://www.youtube.com/watch?v=7oOrLRk0_0Q"
+
+[[webinars]]
+title="Pluto Notebook Support on JuliaHub"
+authors="Bauman, Matthew J"
+date=2021-07-15
+url="https://juliahub.com/company/resources/webinar/pluto-notebook-support"
+video="https://www.youtube.com/watch?v=04tRFGuDX1E"
+
+[[webinars]]
+title="Machine Learning with Multi-GPU Training"
+authors="Bauman, Matthew J"
+date=2021-06-23
+url="https://juliahub.com/company/resources/webinar/machine-learning-with-multi-gpu"
+video="https://www.youtube.com/watch?v=D_VrVq_W-eE"
+
+[[webinars]]
+title="Deployment of Models and Apps in Julia"
+authors="Bauman, Matthew J"
+date=2021-04-23
+url="https://juliahub.com/company/resources/webinar/deployment-of-models"
+video="https://www.youtube.com/watch?v=zECOClp_fyQ"
+
+[[webinars]]
+title="Webinar: Interactive Development at Scale on JuliaHub"
+authors="Bauman, Matthew J"
+date=2021-04-28
+video="https://www.youtube.com/watch?v=rIimpTltVjQ"
+
+[[webinars]]
+title="JuliaHub Tutorial"
+authors="Bauman, Matthew J"
+date=2021-01-04
+url="https://juliahub.com/company/resources/webinar/juliahub-tutorial"
+video="https://www.youtube.com/watch?v=XHsRsllpvqU"
+
+[[webinars]]
+title="Quantitative Systems Pharmacology Using Julia"
+authors="Bauman, Matthew J"
+date=2020-12-04
+url="https://juliahub.com/company/resources/webinar/quantitative-systems-pharmacology-2"
+video="https://www.youtube.com/watch?v=pECq4U9kAgE"
+
+[[webinars]]
+title="High Performance Computation (HPC) on JuliaHub"
+authors="Bauman, Matthew J"
+date=2020-10-13
+url="https://juliahub.com/company/resources/webinar/high-performance-computation"
+video="https://www.youtube.com/watch?v=80jBqGqKW6c"
+
+[[webinars]]
+title="JuliaHub - Introducing Single-Click Scaling and Cluster Deployment in the Cloud"
+authors="Bauman, Matthew J"
+date=2020-09-03
+url="https://juliahub.com/company/resources/webinar/juliahub-introducing"
+video="https://www.youtube.com/watch?v=SZLpCRAtlNg"
+
+[[webinars]]
+title="Going on a Bull Run - Accelerating Finance with Julia"
+authors="Bauman, Matthew J"
+date=2020-08-27
+url="https://juliahub.com/company/resources/webinar/going-on-a-bull-run"
+video="https://www.youtube.com/watch?v=Scv6xUnE6U0"
+
+[[webinars]]
+title="Julia Computing Sponsor Talk"
+authors="Bauman, Matthew J"
+conference="JuliaCon 2020"
+date=2020-07-29
+url="https://pretalx.com/juliacon2020/talk/HZRHEL/"
+video="https://www.youtube.com/watch?v=JVUJ5Oohuhs"
+
+[[webinars]]
+title="Julia Computing Sponsor Talk"
+authors="Shah, Viral B; Bauman, Matthew J"
+conference="JuliaCon 2021"
+date=2021-07-30
+url="https://pretalx.com/juliacon2021/talk/AX3VYR/"
+video="https://www.youtube.com/watch?v=OgK__4byqfY"
+
+[[webinars]]
+title="Julia Computing Sponsor Talk"
+authors="Shah, Viral B; Rackauckas, Chris R; Roesch, Elisabeth; Hertz, Glen; Bauman, Matthew J"
+conference="JuliaCon 2022"
+date=2022-07-27
+url="https://pretalx.com/juliacon-2022/talk/AL8VGC/"
+video="https://www.youtube.com/watch?v=ZB15pk1fpgA"

@@ -24,7 +24,8 @@ const ICONS = Dict(
     "papers"=>"""<i class="far fa-file-alt" title="Paper" style="width:1.5em"></i>""",
     "proceedings"=>"""<i class="far fa-sticky-note" title="Proceeding" style="width:1.5em"></i>""",
     "whitepapers"=>"""<i class="far fa-file" title="Whitepaper" style="width:1.5em"></i>""",
-    "presentations"=>"""<i class="fas fa-tv" title="Presentation" style="width:1.5em"></i>""",
+    "presentations"=>"""<i class="fas fa-person-chalkboard" title="Webinar" style="width:1.5em"></i>""",
+    "webinars"=>"""<i class="fas fa-tv" title="Presentation" style="width:1.5em"></i>""",
     "chapters"=>"""<i class="far fa-bookmark" title="Book chapter" style="width:1.5em"></i>""",
     "posters"=>"""<i class="far fa-map" title="Poster" style="width:1.5em"></i>""",
     )
@@ -44,9 +45,10 @@ function hfun_researchitems()
     println(io, "~~~", ICONS["papers"], "~~~ Published and peer-reviewed papers\n")
     println(io, "~~~", ICONS["proceedings"], "~~~ Published and peer-reviewed conference proceedings\n")
     println(io, "~~~", ICONS["whitepapers"], "~~~ Whitepapers\n")
-    println(io, "~~~", ICONS["presentations"], "~~~ Notable presentations (see also some Julia Computing [webinars](https://juliacomputing.com/resources/webinars/))\n")
     println(io, "~~~", ICONS["chapters"], "~~~ Book chapters\n")
     println(io, "~~~", ICONS["posters"], "~~~ Conference Posters\n")
+    println(io, "~~~", ICONS["presentations"], "~~~ Invited and/or refereed talks and presentations\n")
+    println(io, "~~~", ICONS["webinars"], "~~~ Commercial webinars and presentations\n")
     for (_, g, i) in ord
         elt = groups[g][i]
         print(io, "* ")
