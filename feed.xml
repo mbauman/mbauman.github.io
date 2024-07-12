@@ -1,17 +1,42 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title><![CDATA[Matt Bauman]]></title>
-  <description><![CDATA[Matt Bauman&#39;s personal site
-]]></description>
-  <link>https://mbauman.com/</link>
-  <atom:link href="https://mbauman.com/feed.xml" rel="self" type="application/rss+xml" />
-  <item>
-    <title><![CDATA[New Franklin.jl-based site]]></title>
-    <link>https://mbauman.com/notes/2021/new-blog/</link>
-    <description><![CDATA[Details about re-building my personal website on Franklin.jl
-<br><a href="https://mbauman.com/notes/2021/new-blog/">Read more</a>]]></description>
-    <guid>https://mbauman.com/notes/2021/new-blog/</guid>
-    <pubDate>Sun, 7 Feb 2021 00:00:00 UT</pubDate>
-  </item>
-</channel>
-</rss>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Matt Bauman  ]]>
+    </title>
+    <link> https://mbauman.com </link>
+    <description>
+      <![CDATA[  Matt Bauman&#39;s personal site  ]]>
+    </description>
+    <atom:link
+      href="https://mbauman.com/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  New Franklin.jl-based site  ]]>
+  </title>
+  <link> https://mbauman.com/notes/2021/new-blog/index.html </link>
+  <guid> https://mbauman.com/notes/2021/new-blog/index.html </guid>
+  <description>
+    <![CDATA[  Details about re-building my personal website on Franklin.jl  ]]>
+  </description>  
+    
+  <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Matt Bauman</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>

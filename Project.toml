@@ -1,0 +1,6 @@
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Franklin = "713c75ef-9fc9-4b05-94a9-213340da978e"
+NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
