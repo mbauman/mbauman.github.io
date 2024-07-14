@@ -35,6 +35,7 @@ url = "https://www.sciencedirect.com/science/article/abs/pii/S0165027010004152"
 doi = "10.1016/j.jneumeth.2010.07.040"
 date = 2010-10-15
 pdf = "J-Neurosci-Methods-2010-Slutzky.pdf"
+anchor = "ratbox"
 
 [[papers]]
 authors = "Bruns, Tim M; Wagenaar, Joost B; Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
@@ -108,6 +109,7 @@ publisher = "University of Pittsburgh"
 date = 2019-01-23
 url = "http://d-scholarship.pitt.edu/35540/"
 pdf = "Pitt-2019-Bauman.pdf"
+anchor = "dissertation"
 
 [[proceedings]]
 authors = "Bauman, Matthew J; Boxer, Kate S; Lin, Tzu-Yun; Salomon, Erika; Naveed, Hareem; Haynes, Lauren; Walsh, Joe; Helsby, Jen; Yoder, Steve; Sullivan, Robert"
@@ -121,6 +123,8 @@ date = 2018-06-20
 url = "https://dl.acm.org/doi/abs/10.1145/3209811.3209869"
 doi = "10.1145/3209811.3209869"
 pdf = "SIGCAS-2018-Bauman.pdf"
+source = "https://github.com/dssg/johnson-county-ddj-public"
+anchor = "joco"
 
 [[whitepapers]]
 authors = "Bauman, Matthew J"
@@ -129,6 +133,7 @@ url = "http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/11/dedupew
 date = 2018-11-30
 pdf = "Whitepaper-2018-Bauman.pdf"
 source = "https://github.com/dssg/pgdedupe"
+anchor = "dedupe"
 
 [[posters]]
 authors = "Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
@@ -138,6 +143,7 @@ conference = "Society for Neuroscience 44th Annual Meeting"
 location = "Washington, DC"
 url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=ce1e3772-39c7-4eb7-bbb8-4f25ff6276ca&cKey=9f755998-b7ac-4e82-bb62-8b6f935ba661&mKey=54c85d94-6d69-4b09-afaa-502c0e680ca7"
 pdf = "SFN-2014-Bauman.pdf"
+award = "2015 RIDay best pre-doctoral poster"
 
 [[posters]]
 authors = "Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
@@ -155,6 +161,7 @@ conference = "Society for Neuroscience 43rd Annual Meeting"
 location = "San Diego, CA"
 url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=e2125ec4-fb9e-4ae2-a287-c456ccc52038&cKey=d6734150-3e88-4a52-beaf-99da2519ec3b&mKey=8d2a5bec-4825-4cd6-9439-b42bb151d1cf"
 pdf = "SFN-2013-Bauman.pdf"
+award = "2014 BioE Graduate Recruitment Weekend Poster Session 1st place"
 
 [[posters]]
 authors = "Debnath, Shubham; Bauman, Matthew J; Gaunt, Robert A; Weber, Douglas J"
@@ -172,6 +179,8 @@ conference = "Society for Neuroscience 41st Annual Meeting"
 location = "Washington, DC"
 url = "https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=88e3af2a-5fb8-4d98-a783-e73e379b3eb8&cKey=010212dc-1314-4bf6-8a14-ceefd8f721ee&mKey=8334be29-8911-4991-8c31-32b32dd5e6c8"
 pdf = "SFN-2011-Bauman.pdf"
+award = "2012 BioE Graduate Recruitment Weekend Poster Session 1st place"
+
 
 [[posters]]
 authors = "Bauman, Matthew J; Bruns, Tim M; Wagenaar, Joost B; Gaunt, Robert A; Weber, Douglas J"

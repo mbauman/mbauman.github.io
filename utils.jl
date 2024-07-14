@@ -19,19 +19,27 @@ function lx_baz(com, _)
   return uppercase(brace_content)
 end
 
+function hfun_fontawesome(args)
+    class = args[1]
+    title = get(args, 2, "icon")
+    width = get(args, 3, "1.5em")
+    """<i class="$class" title="$title" style="width:$width"></i>"""
+end
+fa(class, title) = string("~~~", hfun_fontawesome([class, title]), "~~~")
+
 # Font awesome icons
 const ICONS = Dict(
-    "papers"=>"""<i class="far fa-file-alt" title="Paper" style="width:1.5em"></i>""",
-    "proceedings"=>"""<i class="far fa-sticky-note" title="Proceeding" style="width:1.5em"></i>""",
-    "whitepapers"=>"""<i class="far fa-file" title="Whitepaper" style="width:1.5em"></i>""",
-    "presentations"=>"""<i class="fas fa-person-chalkboard" title="Webinar" style="width:1.5em"></i>""",
-    "webinars"=>"""<i class="fas fa-tv" title="Presentation" style="width:1.5em"></i>""",
-    "chapters"=>"""<i class="far fa-bookmark" title="Book chapter" style="width:1.5em"></i>""",
-    "posters"=>"""<i class="far fa-map" title="Poster" style="width:1.5em"></i>""",
+    "papers"=>fa("far fa-file-alt", "Paper"),
+    "proceedings"=>fa("far fa-sticky-note", "Proceeding"),
+    "whitepapers"=>fa("far fa-file", "Whitepaper"),
+    "presentations"=>fa("fas fa-person-chalkboard", "Presentation"),
+    "webinars"=>fa("fas fa-tv", "Webinar"),
+    "chapters"=>fa("far fa-bookmark", "Book chapter"),
+    "posters"=>fa("far fa-map", "Poster"),
     )
-const PDF = """<i class="far fa-file-pdf" title="Linked PDF"></i>"""
-const YOUTUBE = """<i class="fab fa-youtube" title="Watch the presentation"></i>"""
-const SRC = """<i class="fab fa-github" title="Source code"></i>"""
+const PDF = fa("far fa-file-pdf", "Linked PDF")
+const YOUTUBE = fa("fab fa-youtube", "Watch the presentation")
+const SRC = fa("fab fa-github", "Source code")
 
 """
     {{researchitems}}
@@ -42,17 +50,21 @@ function hfun_researchitems()
     groups = open(TOML.parse, "research/papers.toml")
     ord = sort!([(item["date"], g, i) for (g,arr) in groups for (i, item) in pairs(arr)], rev=true)
     io = IOBuffer()
-    println(io, "~~~", ICONS["papers"], "~~~ Published and peer-reviewed papers\n")
-    println(io, "~~~", ICONS["proceedings"], "~~~ Published and peer-reviewed conference proceedings\n")
-    println(io, "~~~", ICONS["whitepapers"], "~~~ Whitepapers\n")
-    println(io, "~~~", ICONS["chapters"], "~~~ Book chapters\n")
-    println(io, "~~~", ICONS["posters"], "~~~ Conference Posters\n")
-    println(io, "~~~", ICONS["presentations"], "~~~ Invited and/or refereed talks and presentations\n")
-    println(io, "~~~", ICONS["webinars"], "~~~ Commercial webinars and presentations\n")
+    println(io, ICONS["papers"], " Published and peer-reviewed papers\n")
+    println(io, ICONS["proceedings"], " Published and peer-reviewed conference proceedings\n")
+    println(io, ICONS["whitepapers"], " Whitepapers\n")
+    println(io, ICONS["chapters"], " Book chapters\n")
+    println(io, ICONS["posters"], " Conference Posters\n")
+    println(io, ICONS["presentations"], " Invited or refereed talks and presentations\n")
+    println(io, ICONS["webinars"], " Commercial webinars and presentations\n")
+    println(io, "~~~<hr />~~~")
+    println(io, """~~~<ul class="fa-ul">~~~""")
     for (_, g, i) in ord
         elt = groups[g][i]
-        print(io, "* ")
-        print(io, "~~~", ICONS[g], "~~~ ")
+        anchor_id = haskey(elt, "anchor") ? elt["anchor"] :
+            haskey(elt, "pdf") ? split(elt["pdf"], '.')[1] :
+            '_' * string(hash(string(elt["date"], elt["title"])), base=62)
+        print(io, """~~~<li id="$anchor_id"><a href="#$anchor_id" class="fa-li" style="font-size:75%;">~~~""", ICONS[g], "~~~</a>~~~ ")
         print(io, elt["authors"], ' ')
         print(io, "(~~~<span title=\"", elt["date"], "\">", Year(elt["date"]).value, "</span>~~~). ")
         haskey(elt, "url") && print(io, "[")
@@ -70,12 +82,12 @@ function hfun_researchitems()
         print(io, get(elt, "conference", ""))
         haskey(elt, "location") && print(io, ", ", elt["location"], ". ")
         haskey(elt, "doi") && print(io, "doi:", elt["doi"], " ")
-        haskey(elt, "pdf") && print(io, "[~~~", PDF, "~~~](/assets/research/", elt["pdf"], ") ")
-        haskey(elt, "source") && print(io, "[~~~", SRC, "~~~](", elt["source"], ") ")
-        haskey(elt, "video") && print(io, "[~~~", YOUTUBE, "~~~](", elt["video"], ") ")
-        println(io)
-        println(io)
+        haskey(elt, "pdf") && print(io, "[", PDF, "](/assets/research/", elt["pdf"], ") ")
+        haskey(elt, "source") && print(io, "[", SRC, "](", elt["source"], ") ")
+        haskey(elt, "video") && print(io, "[", YOUTUBE, "](", elt["video"], ") ")
+        println(io, "~~~</li>~~~")
     end
+    println(io, "~~~</ul>~~~")
     r = Franklin.fd2html(String(take!(io)), internal=true)
     return r
 end
@@ -115,3 +127,5 @@ function hfun_blogposts()
     r = Franklin.fd2html(String(take!(io)), internal=true)
     return r
 end
+
+hfun_spacer((x,)) = """<div style="display:inline-block; width: $(x);"></div>"""

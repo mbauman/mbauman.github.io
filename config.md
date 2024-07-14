@@ -10,6 +10,8 @@ The website_* must be defined for the RSS to work
 @def author = "Matt Bauman"
 
 @def mintoclevel = 2
+@def header = true
+@def footer = true
 
 <!--
 Add here files or directories that should be ignored by Franklin, otherwise

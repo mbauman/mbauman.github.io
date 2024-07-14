@@ -7,11 +7,12 @@
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
   <link rel="stylesheet" href="/css/franklin.css">
   <link rel="stylesheet" href="/css/basic.css">
+  <link rel="stylesheet" href="/css/styles.css">
   <link rel="icon" href="/assets/favicon.png">
   <script src="https://kit.fontawesome.com/8106cce1f2.js" crossorigin="anonymous"></script>
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
 </head>
 <body>
-  {{insert header.html}}
+  {{if header}}{{insert header.html}}{{end}}
 
 <!-- Content appended here -->
