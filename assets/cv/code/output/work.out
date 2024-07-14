@@ -1,0 +1,51 @@
+~~~<dl>~~~
+~~~<dt>~~~2018–present~~~</dt>~~~~~~<dd>~~~**JuliaHub** (formerly Julia Computing)  \
+_Director of Sales Engineering, 2022–present_  \
+_Director of Applications Engineering, 2020–2022_  \
+_Senior Research Scientist, 2018–2020_  \
+
+* Redesigned and implemented broadcasting in Julia
+* Authored blogs and technical documentation and presented live webinars
+* Developed and taught multiple on-line and in-person courses
+* Built and maintained data science and machine learning demos
+* Worked with customers to design and deploy cloud-based APIs
+* Deployed massively parallel workloads with over 1000 cores
+* Since 2022, hired and managed a team of four sales engineers
+~~~</dd>~~~
+
+~~~<dt>~~~2016–2017~~~</dt>~~~~~~<dd>~~~**University of Chicago** Center for Data Science & Public Policy  \
+_Research Scientist, 2016–2017_  \
+_Data Science for Social Good Fellow, 2016 (Summer)_  \
+
+* Built a [dedicated tool](#dedupe) to facilitate matching of personal information across databases
+* Developed an [end-to-end machine learning pipeline](#joco) for an incarceration early intervention system
+* Deployed an API and website for navigating workforce data
+~~~</dd>~~~
+
+~~~<dt>~~~2010–2016~~~</dt>~~~~~~<dd>~~~**University of Pittsburgh** Department of Bioengineering  \
+_Graduate Student Researcher, 2010–2016_  \
+_Teaching Assistant, 2012–2013_  \
+
+* Designed, supervised, and performed in-vivo experiments for [dissertation](#dissertation)
+* Applied machine learning and statistical techniques to rigorously correlate neural activity with muscle and kinematic activity
+* Conducted complicated experiments combining motion capture and neural recordings
+* CNC-machined and 3d-printed bespoke parts as required
+* Printed and soldered custom circuit boards to facilitate recordings
+* Organized and analyzed over two terabytes of data with MATLAB and Julia
+~~~</dd>~~~
+
+~~~<dt>~~~2015 (Fall)~~~</dt>~~~~~~<dd>~~~**Massachusetts Institute of Technology** Julia Lab  \
+_Visiting Ph.D. Student_
+
+* Defined the [roadmap to improve Julia's built-in arrays](https://github.com/JuliaLang/julia/issues/13157) and began the work
+~~~</dd>~~~
+
+~~~<dt>~~~2006–2010~~~</dt>~~~~~~<dd>~~~**Northwestern University** Miller Limb Lab  \
+_Lab Technician_
+
+* Provided general neurophysiology research support, from hardware to software to biological surgery
+* Designed, engineered, and constructed a [complete experimental apparatus with joystick and microcontroller](#ratbox)
+* Developed and deployed a graphical application to control experiments on a real-time operating system
+~~~</dd>~~~
+
+~~~</dl>~~~

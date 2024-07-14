@@ -1,0 +1,116 @@
+[[education]]
+type = "Ph.D."
+institution = "University of Pittsburgh (Pennsylvania)"
+year = 2018
+details = [
+    "Dissertation: [A ventral root interface for neuroprosthetic control of locomotion](#dissertation)",
+    "Advisor: Douglas Weber, Rehabilitation and Neural Engineering Laboratory",
+]
+
+[[education]]
+type = "B.A."
+institution = "Goshen College (Indiana)"
+year = 2006
+details = [
+    "Majors: Math, Physics",
+    "Minor: Spanish",
+]
+
+[[work]]
+institution = "**JuliaHub** (formerly Julia Computing)"
+start = 2018-01-01
+details = [
+    "Redesigned and implemented broadcasting in Julia",
+    "Authored blogs and technical documentation and presented live webinars",
+    "Developed and taught multiple on-line and in-person courses",
+    "Built and maintained data science and machine learning demos",
+    "Worked with customers to design and deploy cloud-based APIs",
+    "Deployed massively parallel workloads with over 1000 cores",
+    "Since 2022, hired and managed a team of four sales engineers",
+]
+[[work.roles]]
+title = "Director of Sales Engineering"
+start = 2022-02-01
+[[work.roles]]
+title = "Director of Applications Engineering"
+start = 2020-01-01
+stop = 2022-02-01
+[[work.roles]]
+title = "Senior Research Scientist"
+start = 2018-01-01
+stop = 2020-01-01
+
+[[work]]
+institution = "**University of Chicago** Center for Data Science & Public Policy"
+start = 2016-06-01
+stop = 2017-08-31
+details = [
+    "Built a [dedicated tool](#dedupe) to facilitate matching of personal information across databases",
+    "Developed an [end-to-end machine learning pipeline](#joco) for an incarceration early intervention system",
+    "Deployed an API and website for navigating workforce data",
+]
+[[work.roles]]
+title = "Research Scientist"
+start = 2016-09-01
+stop = 2017-08-31
+[[work.roles]]
+title = "Data Science for Social Good Fellow"
+datestr = "2016 (Summer)"
+
+[[work]]
+institution = "**University of Pittsburgh** Department of Bioengineering"
+start = 2010-09-01
+stop = 2016-05-31
+details = [
+    "Designed, supervised, and performed in-vivo experiments for [dissertation](#dissertation)",
+    "Applied machine learning and statistical techniques to rigorously correlate neural activity with muscle and kinematic activity",
+    "Conducted complicated experiments combining motion capture and neural recordings",
+    "CNC-machined and 3d-printed bespoke parts as required",
+    "Printed and soldered custom circuit boards to facilitate recordings",
+    "Organized and analyzed over two terabytes of data with MATLAB and Julia",
+]
+[[work.roles]]
+title = "Graduate Student Researcher"
+start = 2010-01-01
+stop = 2016-05-31
+[[work.roles]]
+title = "Teaching Assistant"
+start = 2012-09-01
+stop = 2013-05-31
+
+[[work]]
+institution = "**Massachusetts Institute of Technology** Julia Lab"
+title = "Visiting Ph.D. Student"
+start = 2015-09-15
+datestr = "2015 (Fall)"
+details = [
+    "Defined the [roadmap to improve Julia's built-in arrays](https://github.com/JuliaLang/julia/issues/13157) and began the work",
+]
+
+[[work]]
+institution = "**Northwestern University** Miller Limb Lab"
+title = "Lab Technician"
+start = 2006-06-01
+stop = 2010-07-31
+details = [
+    "Provided general neurophysiology research support, from hardware to software to biological surgery",
+    "Designed, engineered, and constructed a [complete experimental apparatus with joystick and microcontroller](#ratbox)",
+    "Developed and deployed a graphical application to control experiments on a real-time operating system",
+]
+
+
+[[work]]
+institution = "**Goshen College** Physics Department"
+start = 2003-06-01
+stop = 2006-05-31
+details = [
+    "Setup, assisted, and graded labs for General Physics and Electronics",
+    "Examined the bioelectrical properties of lipid membranes and presented work at NCUR 2004",
+]
+[[work.roles]]
+title = "Teaching Assistant"
+start = 2004-09-01
+stop = 2006-05-31
+[[work.roles]]
+title = "Turner Lab Research Fellow"
+datestr = "2003 (Summer)"
