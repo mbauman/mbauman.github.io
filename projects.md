@@ -6,7 +6,7 @@
 
 [~~~<i class="fab fa-github" title="Source code"></i>~~~ Source (https://github.com/mbauman/CovidCountyDash.jl)][CovidCountyDash.jl]
 
-[~~~<i class="fas fa-external-link-alt"></i>~~~ Website (https://covid-county-dash.herokuapp.com)](https://covid-county-dash.herokuapp.com)
+[~~~<i class="fas fa-external-link-alt"></i>~~~ Website (covid-county-dash.mbauman.com)](http://covid-county-dash.mbauman.com)
 
 Back in the Spring of 2020, I wanted a quick and easy way to compare virus prevalence
 between specific _counties_. The NYT built and has maintained a robust dataset that includes
