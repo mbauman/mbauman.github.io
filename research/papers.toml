@@ -337,7 +337,7 @@ url="https://juliahub.com/company/resources/webinar/deployment-of-models"
 video="https://www.youtube.com/watch?v=zECOClp_fyQ"
 
 [[webinars]]
-title="Webinar: Interactive Development at Scale on JuliaHub"
+title="Interactive Development at Scale on JuliaHub"
 authors="Bauman, Matthew J"
 date=2021-04-28
 video="https://www.youtube.com/watch?v=rIimpTltVjQ"
@@ -400,3 +400,28 @@ conference="JuliaCon 2022"
 date=2022-07-27
 url="https://pretalx.com/juliacon-2022/talk/AL8VGC/"
 video="https://www.youtube.com/watch?v=ZB15pk1fpgA"
+
+[[presentations]]
+authors="Bauman, Matthew J"
+date=2025-07-22
+title="Introduction to Julia"
+conference="JuliaCon 2025"
+location="Pittsburgh, PA"
+url="https://pretalx.com/juliacon-2025/talk/RDB8J8/"
+video="https://www.youtube.com/watch?v=46hkaaDBgX4"
+
+[[presentations]]
+authors="Bauman, Matthew J"
+date=2025-10-02
+title="Why are sum functions extremely hard to get right?"
+conference="JuliaCon Local Paris 2025"
+location="Paris, France"
+url="https://pretalx.com/juliacon-local-paris-2025/talk/GDZY7X/"
+video="https://www.youtube.com/watch?v=FqpMzY4ugZI"
+
+[[webinars]]
+title="What Makes a Good Engineering Model?"
+authors="Bauman, Matthew J"
+date=2026-04-09
+url="https://juliahub.com/videos/what-makes-a-good-engineering-model"
+video="https://www.youtube.com/watch?v=k-SqGJeEx0c"

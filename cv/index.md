@@ -76,11 +76,12 @@ println("~~~</dl>~~~")
 ## Skills and other activities
 
 * Languages: Julia, Python, C, MATLAB, Shell, and Javascript (and HTML/CSS)
-* Tools: Git, PostgreSQL, HTTP(s) APIs, SSH, Docker, AWS (EC2, EFS, S3 primarily)
-* Techniques: Multi-threaded, multi-machine, and GPU-based compute; neural networks and machine learning pipelines; imputation and ETL.
+* Tools: Git, GitHub, PostgreSQL, Docker, AWS (EC2, EFS, S3 primarily)
+* Techniques: Agentic workflows, parallel and GPU-based compute, neural networks and machine learning pipelines, imputation and ETL
+* Julia Security Working Group coordinator, 2025-present
 * Core contributor to the Julia programming language, 2015–present
-* Moderator and administrator of the Julia community discourse board ([discourse.julialang.org](https://discourse.julialang.org)), 2016–present
-* Former member of Students for Urban Data Science (Carnegie Mellon University), 2015–2016
+* Moderator and administrator of the Julia community Discourse board ([discourse.julialang.org](https://discourse.julialang.org)), 2016–present
+* Member of Students for Urban Data Science (Carnegie Mellon University), 2015–2016
 
 ```julia:pubs
 #hideall
@@ -113,6 +114,7 @@ io = stdout
 for (name, group, icon) in
         (("Publications", vcat(groups["papers"], groups["whitepapers"], groups["chapters"]), "papers"),
          ("Presentations", groups["presentations"], "presentations"),
+         ("Webinars", groups["webinars"], "webinars"),
          ("Conference Proceedings and Posters", vcat(groups["proceedings"], groups["posters"]), "posters"))
     ord = sort!([(item["date"], i) for (i, item) in enumerate(group)], rev=true)
     println("## ", name)
