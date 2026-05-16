@@ -29,6 +29,7 @@ io = stdout
 for (name, group, icon) in
         (("Publications", vcat(groups["papers"], groups["whitepapers"], groups["chapters"]), "papers"),
          ("Presentations", groups["presentations"], "presentations"),
+         ("Webinars", groups["webinars"], "webinars"),
          ("Conference Proceedings and Posters", vcat(groups["proceedings"], groups["posters"]), "posters"))
     ord = sort!([(item["date"], i) for (i, item) in enumerate(group)], rev=true)
     println("## ", name)
