@@ -161,6 +161,7 @@ end
 ```
 \textoutput{pubs}
 
+<!--
 ## Awards and accolades
 
 * 2013 TA of the year, Pittsburgh Engineering Graduate Student Organization, Bioengineering Department.
@@ -182,5 +183,7 @@ end
 println()
 ```
 \textoutput{awards}
+
+-->
 
 @@ <!-- outermost cv div -->
